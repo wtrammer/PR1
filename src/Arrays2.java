@@ -8,8 +8,9 @@ public class Arrays2 {
 		
 				for(int t=0; t < tage.length; t++){
 					System.out.println(tage[t]);
+					
 				}
-		
+				System.out.println(tage.length);
 		
 	}
 
