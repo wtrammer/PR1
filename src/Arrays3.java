@@ -15,7 +15,7 @@ public class Arrays3 {
 		arr1[8] = 2;
 		arr1[9] = 2;
 		
-		for(int i = 0; i <= arr1.length; i++) {
+		for(int i = 0; i < arr1.length; i++) {
 			
 			System.out.println(i);
 		}
