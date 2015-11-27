@@ -7,6 +7,7 @@ public class Car {
 	public String colour;
 	public String brand;
 	public int year;
+	public int PS;
 	
 	public void nextGear()
 	{

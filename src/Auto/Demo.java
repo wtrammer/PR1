@@ -15,7 +15,22 @@ public class Demo {
 		golf5.brand = "VW";
 		golf5.colour = "White";
 		golf5.year = 2012;
-
+		
+		Car audia4 = new Car();
+		audia4.brand = "Audi";
+		audia4.colour = "White";
+		audia4.year = 2011;
+		audia4.PS = 170;
+		
+		
+		audia4.setCurrentGear(1);
+		audia4.accelerate(130);
+		audia4.accelerate(15);
+		System.out.println("Aktueller Gang Audi: "+audia4.currentGear);
+		System.out.println("Speed:" +audia4.currentSpeed);
+		System.out.println(audia4.PS+"PS");
+		
+		
 		
 		porsche911.setCurrentGear(3);
 		System.out.println("aktueller gang Porsche: " +porsche911.currentGear);
@@ -38,9 +53,7 @@ public class Demo {
 		System.out.println("speed: " + porsche911.currentSpeed);
 		
 		
-		Waehrungsbetrag chfBetrag = new Waehrungsbetrag();
-		chfBetrag.Wert = 500;
-		chfBetrag.Zeichen = "CHF";
+		
 		
 		
 
