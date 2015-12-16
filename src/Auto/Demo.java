@@ -5,7 +5,7 @@ public class Demo {
 	public static void main(String[] args) {
 
 		int n;
-		int b;
+		int bb;
 		Car porsche911 = new Car();
 		porsche911.brand = "Porsche";
 		porsche911.colour = "black";
